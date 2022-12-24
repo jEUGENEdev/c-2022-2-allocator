@@ -1,0 +1,6 @@
+# ninja log v5
+1	205	6936112834820314	CMakeFiles/c_2022_2_allocator.dir/main.c.obj	70e58b82f21e4c34
+208	395	6936112836639270	c_2022_2_allocator.exe	d4cccb2a15b0732d
+5	295	6936117656275469	CMakeFiles/c_2022_2_allocator.dir/core/functions.c.obj	2b30bd986835b24e
+13	301	6936117656285430	CMakeFiles/c_2022_2_allocator.dir/allocator.c.obj	2bc804a686d1de06
+301	551	6936117658939783	c_2022_2_allocator.exe	eac26aabba9520de

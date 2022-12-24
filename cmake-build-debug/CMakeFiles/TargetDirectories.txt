@@ -1,0 +1,3 @@
+C:/Users/genya/Desktop/c-2022-2-allocator/cmake-build-debug/CMakeFiles/c_2022_2_allocator.dir
+C:/Users/genya/Desktop/c-2022-2-allocator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/genya/Desktop/c-2022-2-allocator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
