@@ -61,12 +61,6 @@ build CMakeFiles/c_2022_2_allocator.dir/allocator.c.obj: C_COMPILER__c_2022_2_al
   OBJECT_DIR = CMakeFiles\c_2022_2_allocator.dir
   OBJECT_FILE_DIR = CMakeFiles\c_2022_2_allocator.dir
 
-build CMakeFiles/c_2022_2_allocator.dir/core/functions.c.obj: C_COMPILER__c_2022_2_allocator_Debug C$:/Users/genya/Desktop/c-2022-2-allocator/core/functions.c || cmake_object_order_depends_target_c_2022_2_allocator
-  DEP_FILE = CMakeFiles\c_2022_2_allocator.dir\core\functions.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\c_2022_2_allocator.dir
-  OBJECT_FILE_DIR = CMakeFiles\c_2022_2_allocator.dir\core
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target c_2022_2_allocator
@@ -75,7 +69,7 @@ build CMakeFiles/c_2022_2_allocator.dir/core/functions.c.obj: C_COMPILER__c_2022
 #############################################
 # Link the executable c_2022_2_allocator.exe
 
-build c_2022_2_allocator.exe: C_EXECUTABLE_LINKER__c_2022_2_allocator_Debug CMakeFiles/c_2022_2_allocator.dir/main.c.obj CMakeFiles/c_2022_2_allocator.dir/allocator.c.obj CMakeFiles/c_2022_2_allocator.dir/core/functions.c.obj
+build c_2022_2_allocator.exe: C_EXECUTABLE_LINKER__c_2022_2_allocator_Debug CMakeFiles/c_2022_2_allocator.dir/main.c.obj CMakeFiles/c_2022_2_allocator.dir/allocator.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\c_2022_2_allocator.dir

@@ -6,13 +6,19 @@
 #define C_2022_2_ALLOCATOR_ALLOCATOR_H
 
 #include <stdlib.h>
-#include "./core/functions.h"
 
 typedef struct {
     void* ptr;
-    size_t size;
+    void* ptr_current;
+    size_t block_size;
+    size_t number_blocks;
 } allocator_t;
 
-allocator_t HelloAllocator(size_t max_size);
+void allocator_init(allocator_t* allocator, size_t block_size, size_t number_blocks);
+
+void* m_alloc(allocator_t* allocator);
+void* m_calloc(allocator_t* allocator);
+void* m_realloc(allocator_t* allocator, size_t size);
+void m_free(allocator_t* allocator, void* memory);
 
 #endif //C_2022_2_ALLOCATOR_ALLOCATOR_H
