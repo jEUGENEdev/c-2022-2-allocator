@@ -3,7 +3,7 @@
 
 int main() {
     allocator_t allocator;
-    allocator_init(&allocator, sizeof(int), 3);
+    allocator_init(&allocator, sizeof(int*), 3);
     int* i1 = m_alloc(&allocator);
     int* i2 = m_alloc(&allocator);
     int* i3 = m_alloc(&allocator);
